@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#messages {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    font-family: monospace;
+    white-space: pre-wrap;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
