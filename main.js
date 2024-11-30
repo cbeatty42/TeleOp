@@ -21,7 +21,7 @@ let servers = {
 // Triggered as soon as the user loads the page
 let init = async () => {
     // Request access to the user's webcam and/or microphone
-    localStream = await navigator.mediaDevices.getUserMedia({video: true, audio: false});
+    localStream = await navigator.mediaDevices.getDisplayMedia({video: true, audio: false});
 
     // Display the local video stream on the page
     document.getElementById('user-1').srcObject = localStream;
